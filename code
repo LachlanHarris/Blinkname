@@ -1,0 +1,57 @@
+// my name .-.. .- -.-. .... .-.. .- -.
+
+int led = D7; 
+
+void dot()
+{
+    digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(1000);
+    
+}
+
+void dash()
+{
+    digitalWrite(led, HIGH);
+    delay(1000);
+    digitalWrite(led, LOW);
+    delay(1000);
+}
+
+void setup() {
+    pinMode(led, OUTPUT);
+    
+
+}
+
+void loop() {
+dot();
+dash();
+dot();
+dot();
+
+dot();
+dash();
+
+dash();
+dot();
+dash();
+dot();
+
+dot();
+dot();
+dot();
+dot();
+
+dot();
+dash();
+dot();
+dot();
+
+dot();
+dash();
+
+dash();
+dot();
+}
